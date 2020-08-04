@@ -4,7 +4,7 @@
   "description": "Video chat between two people using simple peer",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
   "author": "Dibyendu Nandan",
