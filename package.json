@@ -2,7 +2,7 @@
   "name": "simple-videochat-webrtc",
   "version": "1.0.0",
   "description": "Video chat between two people using simple peer",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
