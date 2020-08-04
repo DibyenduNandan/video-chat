@@ -2,9 +2,9 @@
   "name": "simple-videochat-webrtc",
   "version": "1.0.0",
   "description": "Video chat between two people using simple peer",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
   "author": "Dibyendu Nandan",
